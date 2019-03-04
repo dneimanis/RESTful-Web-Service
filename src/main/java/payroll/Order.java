@@ -12,6 +12,9 @@ import javax.persistence.Table;
 @Table(name = "CUSTOMER_ORDER")
 class Order {
 
+    public Order() {
+    }
+
     private @Id @GeneratedValue Long id;
 
     private String description;
